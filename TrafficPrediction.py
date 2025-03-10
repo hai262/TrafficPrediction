@@ -1,8 +1,4 @@
-import os
 import streamlit as st
-# Force install Matplotlib in case it is missing
-os.system("pip install --no-cache-dir matplotlib==3.8.0")
-import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -16,7 +12,6 @@ import math
 
 # Set page configuration at the very top
 st.set_page_config(page_title="Advanced Traffic Prediction (GRU)", layout="wide")
-
 
 # Inject custom CSS for background image and styling
 st.markdown(
